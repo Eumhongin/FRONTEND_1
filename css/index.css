@@ -1,12 +1,37 @@
 @import "../font/font.css";
 @import "core.css";
+/* header start */
 header{
-  font-size: 1.5vw;
+  font-size: 1.3vw;
+}
+.H_logo{
+  background-color: black;
+  padding:1.5%;
+  padding-top:2%;
+  padding-bottom: 1%;
+}
+.H_logo > span{
+  color: white;
+}
+.H_Menu{
+  width: 30%;
+  margin-left: 64%;
+  margin-top: 3%;
+
+}
+.H_Menu > *{
+  margin-left: 15%;
+  padding-left: 1%;
+  padding-right: 1%
+}
+.H_Menu > *:hover{
+  background-color: black;
+  color: white;
 }
 
 /* Panel1 Start */
 .Panel1background{
-
+  margin-top:10%;
 }
 .Panel1{
   width: 100%;
@@ -18,20 +43,19 @@ header{
   line-height: 1.1;
 }
 .P1_OurStory{
+  width: 70%;
   position: absolute;
   font-size: 1.2vw;
 }
 .P1_OurStory > img{
-  width: 4%;
+  position: absolute;
 }
 .P1_OurStory>a{
-  margin-left: 6%;
-  width: 90%;
+  position: absolute;
   text-decoration: none;
   color:black;
 }
 .P1_OurStory>a:hover{
-  background-color: black;
   color:white;
 }
 .P1_Item2{
@@ -39,15 +63,17 @@ header{
   margin-left: 10%;
   font-family: sans-serif;
   font-weight: lighter;
-  width: 15%;
+  width: 25%;
   position: sticky;
+  font-size: 1vw;
+  line-height: 1.6;
 }
 .P1_TT{
   position: absolute;
   width: 20%;
 }
 .P1_TT > img{
-  width: 100%;
+  width: 80%;
 }
 .P1_Img_D{
   width: 21%;
@@ -56,6 +82,14 @@ header{
   width:100%;
 }
 /* Panel2 Start */
+.Panel2background{
+  position: relative;
+  z-index: 9999;
+}
 .Panel2{
+  color: white;
+}
+.P2_CREATIVE{
+  font-size: 5vw;
 
 }
